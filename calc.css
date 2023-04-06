@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(247, 247, 46);
+}
+
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.quotes{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    padding: 0 50px;
+    color: gray;
+    background-color: rgb(254, 242, 220);
+    border: 10px solid black;
+}
+
+button{
+    width: 80px;
+}
+
+@media(max-width: 480px){
+    .quotes p , .quotes h3{
+        font-size: 1rem;
+    }
+}
